@@ -1,0 +1,117 @@
+.case-instagram-container {
+  flex: 0 0 auto;
+  width: 26%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.case-instagram-text {
+  color: var(--dl-color-primary-100);
+}
+.case-instagram-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.case-instagram-container2 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 200px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/playground_assets/instagram-1500w.jpg");
+  background-position: center;
+}
+.case-instagram-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.case-instagram-button {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-weight: 900;
+  border-width: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-primary-100);
+}
+.case-instagram-text1 {
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .case-instagram-container {
+    width: 96%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .case-instagram-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .case-instagram-container1 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .case-instagram-container2 {
+    width: 48%;
+    margin-top: 0px;
+    margin-right: 2%;
+    margin-bottom: 0px;
+  }
+  .case-instagram-container3 {
+    width: 48%;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: var(--dl-color-primary-700);
+  }
+  .case-instagram-text1 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .case-instagram-container2 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .case-instagram-text1 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .case-instagram-text {
+    font-size: 28px;
+    text-align: center;
+  }
+  .case-instagram-container1 {
+    flex-direction: column;
+  }
+  .case-instagram-container2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .case-instagram-container3 {
+    width: 100%;
+    padding: 0px;
+    background-color: transparent;
+  }
+}
